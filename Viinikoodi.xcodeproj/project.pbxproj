@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4B79A5614760A9600B5D49B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5514760A9600B5D49B /* UIKit.framework */; };
+		C4B79A5814760A9600B5D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5714760A9600B5D49B /* Foundation.framework */; };
+		C4B79A5A14760A9600B5D49B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5914760A9600B5D49B /* CoreGraphics.framework */; };
+		C4B79A6014760A9600B5D49B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A5E14760A9600B5D49B /* InfoPlist.strings */; };
+		C4B79A6214760A9600B5D49B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6114760A9600B5D49B /* main.m */; };
+		C4B79A6614760A9600B5D49B /* VKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6514760A9600B5D49B /* VKAppDelegate.m */; };
+		C4B79A6914760A9600B5D49B /* VKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6814760A9600B5D49B /* VKFirstViewController.m */; };
+		C4B79A6B14760A9700B5D49B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A6A14760A9700B5D49B /* first.png */; };
+		C4B79A6D14760A9700B5D49B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A6C14760A9700B5D49B /* first@2x.png */; };
+		C4B79A7014760A9700B5D49B /* VKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6F14760A9700B5D49B /* VKSecondViewController.m */; };
+		C4B79A7214760A9700B5D49B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7114760A9700B5D49B /* second.png */; };
+		C4B79A7414760A9700B5D49B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7314760A9700B5D49B /* second@2x.png */; };
+		C4B79A7714760A9700B5D49B /* VKFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7514760A9700B5D49B /* VKFirstViewController.xib */; };
+		C4B79A7A14760A9700B5D49B /* VKSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7814760A9700B5D49B /* VKSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4B79A5114760A9600B5D49B /* Viinikoodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viinikoodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B79A5514760A9600B5D49B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4B79A5714760A9600B5D49B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4B79A5914760A9600B5D49B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4B79A5D14760A9600B5D49B /* Viinikoodi-Info.plist */ = {isa = PBXFileReference; path = "Viinikoodi-Info.plist"; sourceTree = "<group>"; };
+		C4B79A5F14760A9600B5D49B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4B79A6114760A9600B5D49B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4B79A6314760A9600B5D49B /* Viinikoodi-Prefix.pch */ = {isa = PBXFileReference; path = "Viinikoodi-Prefix.pch"; sourceTree = "<group>"; };
+		C4B79A6414760A9600B5D49B /* VKAppDelegate.h */ = {isa = PBXFileReference; path = VKAppDelegate.h; sourceTree = "<group>"; };
+		C4B79A6514760A9600B5D49B /* VKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKAppDelegate.m; sourceTree = "<group>"; };
+		C4B79A6714760A9600B5D49B /* VKFirstViewController.h */ = {isa = PBXFileReference; path = VKFirstViewController.h; sourceTree = "<group>"; };
+		C4B79A6814760A9600B5D49B /* VKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKFirstViewController.m; sourceTree = "<group>"; };
+		C4B79A6A14760A9700B5D49B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C4B79A6C14760A9700B5D49B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C4B79A6E14760A9700B5D49B /* VKSecondViewController.h */ = {isa = PBXFileReference; path = VKSecondViewController.h; sourceTree = "<group>"; };
+		C4B79A6F14760A9700B5D49B /* VKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKSecondViewController.m; sourceTree = "<group>"; };
+		C4B79A7114760A9700B5D49B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C4B79A7314760A9700B5D49B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C4B79A7614760A9700B5D49B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKFirstViewController.xib; sourceTree = "<group>"; };
+		C4B79A7914760A9700B5D49B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B79A4E14760A9600B5D49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B79A5614760A9600B5D49B /* UIKit.framework in Frameworks */,
+				C4B79A5814760A9600B5D49B /* Foundation.framework in Frameworks */,
+				C4B79A5A14760A9600B5D49B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4B79A4614760A9600B5D49B = {
+			isa = PBXGroup;
+			children = (
+				C4B79A5B14760A9600B5D49B /* Viinikoodi */,
+				C4B79A5414760A9600B5D49B /* Frameworks */,
+				C4B79A5214760A9600B5D49B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B79A5214760A9600B5D49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79A5114760A9600B5D49B /* Viinikoodi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B79A5414760A9600B5D49B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79A5514760A9600B5D49B /* UIKit.framework */,
+				C4B79A5714760A9600B5D49B /* Foundation.framework */,
+				C4B79A5914760A9600B5D49B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B79A5B14760A9600B5D49B /* Viinikoodi */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79A6414760A9600B5D49B /* VKAppDelegate.h */,
+				C4B79A6514760A9600B5D49B /* VKAppDelegate.m */,
+				C4B79A6714760A9600B5D49B /* VKFirstViewController.h */,
+				C4B79A6814760A9600B5D49B /* VKFirstViewController.m */,
+				C4B79A6A14760A9700B5D49B /* first.png */,
+				C4B79A6C14760A9700B5D49B /* first@2x.png */,
+				C4B79A6E14760A9700B5D49B /* VKSecondViewController.h */,
+				C4B79A6F14760A9700B5D49B /* VKSecondViewController.m */,
+				C4B79A7114760A9700B5D49B /* second.png */,
+				C4B79A7314760A9700B5D49B /* second@2x.png */,
+				C4B79A7514760A9700B5D49B /* VKFirstViewController.xib */,
+				C4B79A7814760A9700B5D49B /* VKSecondViewController.xib */,
+				C4B79A5C14760A9600B5D49B /* Supporting Files */,
+			);
+			path = Viinikoodi;
+			sourceTree = "<group>";
+		};
+		C4B79A5C14760A9600B5D49B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79A5D14760A9600B5D49B /* Viinikoodi-Info.plist */,
+				C4B79A5E14760A9600B5D49B /* InfoPlist.strings */,
+				C4B79A6114760A9600B5D49B /* main.m */,
+				C4B79A6314760A9600B5D49B /* Viinikoodi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B79A5014760A9600B5D49B /* Viinikoodi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B79A7D14760A9700B5D49B /* Build configuration list for PBXNativeTarget "Viinikoodi" */;
+			buildPhases = (
+				C4B79A4D14760A9600B5D49B /* Sources */,
+				C4B79A4E14760A9600B5D49B /* Frameworks */,
+				C4B79A4F14760A9600B5D49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viinikoodi;
+			productName = Viinikoodi;
+			productReference = C4B79A5114760A9600B5D49B /* Viinikoodi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B79A4814760A9600B5D49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C4B79A4B14760A9600B5D49B /* Build configuration list for PBXProject "Viinikoodi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4B79A4614760A9600B5D49B;
+			productRefGroup = C4B79A5214760A9600B5D49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B79A5014760A9600B5D49B /* Viinikoodi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B79A4F14760A9600B5D49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B79A6014760A9600B5D49B /* InfoPlist.strings in Resources */,
+				C4B79A6B14760A9700B5D49B /* first.png in Resources */,
+				C4B79A6D14760A9700B5D49B /* first@2x.png in Resources */,
+				C4B79A7214760A9700B5D49B /* second.png in Resources */,
+				C4B79A7414760A9700B5D49B /* second@2x.png in Resources */,
+				C4B79A7714760A9700B5D49B /* VKFirstViewController.xib in Resources */,
+				C4B79A7A14760A9700B5D49B /* VKSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B79A4D14760A9600B5D49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B79A6214760A9600B5D49B /* main.m in Sources */,
+				C4B79A6614760A9600B5D49B /* VKAppDelegate.m in Sources */,
+				C4B79A6914760A9600B5D49B /* VKFirstViewController.m in Sources */,
+				C4B79A7014760A9700B5D49B /* VKSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4B79A5E14760A9600B5D49B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B79A5F14760A9600B5D49B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4B79A7514760A9700B5D49B /* VKFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B79A7614760A9700B5D49B /* en */,
+			);
+			name = VKFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		C4B79A7814760A9700B5D49B /* VKSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B79A7914760A9700B5D49B /* en */,
+			);
+			name = VKSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4B79A7B14760A9700B5D49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4B79A7C14760A9700B5D49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4B79A7E14760A9700B5D49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viinikoodi/Viinikoodi-Prefix.pch";
+				INFOPLIST_FILE = "Viinikoodi/Viinikoodi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4B79A7F14760A9700B5D49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viinikoodi/Viinikoodi-Prefix.pch";
+				INFOPLIST_FILE = "Viinikoodi/Viinikoodi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B79A4B14760A9600B5D49B /* Build configuration list for PBXProject "Viinikoodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B79A7B14760A9700B5D49B /* Debug */,
+				C4B79A7C14760A9700B5D49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B79A7D14760A9700B5D49B /* Build configuration list for PBXNativeTarget "Viinikoodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B79A7E14760A9700B5D49B /* Debug */,
+				C4B79A7F14760A9700B5D49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4B79A4814760A9600B5D49B /* Project object */;
+}
