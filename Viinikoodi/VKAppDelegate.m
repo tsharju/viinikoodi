@@ -2,15 +2,14 @@
 //  VKAppDelegate.m
 //  Viinikoodi
 //
-//  Created by Teemu Harju on 18.11.2011.
+//  Created by Teemu Harju on 12.11.2011.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "VKAppDelegate.h"
-
-#import "VKFirstViewController.h"
-
-#import "VKSecondViewController.h"
+#import "VKScanViewController.h"
+#import "VKWineStore.h"
+#import "VKWineTableController.h"
 
 @implementation VKAppDelegate
 
@@ -27,13 +26,31 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[VKFirstViewController alloc] initWithNibName:@"VKFirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[VKSecondViewController alloc] initWithNibName:@"VKSecondViewController" bundle:nil] autorelease];
+    
+    UIViewController *scanViewController = [[VKScanViewController alloc] initWithNibName:@"VKScanView" bundle:nil];
+    
+    UINavigationController *scannerNavigationController = [[[UINavigationController alloc]
+                                                           initWithRootViewController:scanViewController] autorelease];
+    scannerNavigationController.navigationBar.barStyle = UIBarStyleBlack;
+    
+    UIViewController *wineListController = [[VKWineTableController alloc] init];
+    
+    UINavigationController *wineTableNavigationController = [[[UINavigationController alloc]
+                                                             initWithRootViewController:wineListController]
+                                                            autorelease];
+    wineTableNavigationController.navigationBar.barStyle = UIBarStyleBlack;
+    
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:scannerNavigationController,
+                                             wineTableNavigationController, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    
+    [ZBarReaderView class];
+    
+    [scanViewController release];
+    //[wineListController release];
+    
     return YES;
 }
 
@@ -51,6 +68,7 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
+    [[VKWineStore defaultStore] saveChanges];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -74,6 +92,7 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+    [[VKWineStore defaultStore] saveChanges];
 }
 
 /*
