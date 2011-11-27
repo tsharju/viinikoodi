@@ -10,17 +10,49 @@
 		C4B79A5614760A9600B5D49B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5514760A9600B5D49B /* UIKit.framework */; };
 		C4B79A5814760A9600B5D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5714760A9600B5D49B /* Foundation.framework */; };
 		C4B79A5A14760A9600B5D49B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5914760A9600B5D49B /* CoreGraphics.framework */; };
-		C4B79A6014760A9600B5D49B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A5E14760A9600B5D49B /* InfoPlist.strings */; };
-		C4B79A6214760A9600B5D49B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6114760A9600B5D49B /* main.m */; };
-		C4B79A6614760A9600B5D49B /* VKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6514760A9600B5D49B /* VKAppDelegate.m */; };
-		C4B79A6914760A9600B5D49B /* VKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6814760A9600B5D49B /* VKFirstViewController.m */; };
-		C4B79A6B14760A9700B5D49B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A6A14760A9700B5D49B /* first.png */; };
-		C4B79A6D14760A9700B5D49B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A6C14760A9700B5D49B /* first@2x.png */; };
-		C4B79A7014760A9700B5D49B /* VKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A6F14760A9700B5D49B /* VKSecondViewController.m */; };
-		C4B79A7214760A9700B5D49B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7114760A9700B5D49B /* second.png */; };
-		C4B79A7414760A9700B5D49B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7314760A9700B5D49B /* second@2x.png */; };
-		C4B79A7714760A9700B5D49B /* VKFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7514760A9700B5D49B /* VKFirstViewController.xib */; };
-		C4B79A7A14760A9700B5D49B /* VKSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A7814760A9700B5D49B /* VKSecondViewController.xib */; };
+		C4B79A9F14760C8900B5D49B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A8C14760C8800B5D49B /* InfoPlist.strings */; };
+		C4B79AA214760C8900B5D49B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A9214760C8800B5D49B /* main.m */; };
+		C4B79AA314760C8900B5D49B /* Viinikoodi-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4B79A9514760C8800B5D49B /* Viinikoodi-Info.plist */; };
+		C4B79AA414760C8900B5D49B /* VKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79A9814760C8800B5D49B /* VKAppDelegate.m */; };
+		C4B79AB41476113C00B5D49B /* 142-wine-bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AAB1476113C00B5D49B /* 142-wine-bottle.png */; };
+		C4B79AB51476113C00B5D49B /* 195-barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AAC1476113C00B5D49B /* 195-barcode.png */; };
+		C4B79AB61476113C00B5D49B /* 64-zap-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AAD1476113C00B5D49B /* 64-zap-white.png */; };
+		C4B79AB71476113C00B5D49B /* 64-zap.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AAE1476113C00B5D49B /* 64-zap.png */; };
+		C4B79AB81476113C00B5D49B /* barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AAF1476113C00B5D49B /* barcode.png */; };
+		C4B79AC7147611C500B5D49B /* VKScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79AC3147611C400B5D49B /* VKScanViewController.m */; };
+		C4B79ACC1476122B00B5D49B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79ACB1476122B00B5D49B /* CoreData.framework */; };
+		C4B79ACE1476124300B5D49B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79ACD1476124300B5D49B /* AVFoundation.framework */; };
+		C4B79AD01476125000B5D49B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79ACF1476125000B5D49B /* CoreMedia.framework */; };
+		C4B79AD21476125F00B5D49B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79AD11476125F00B5D49B /* CoreVideo.framework */; };
+		C4B79AD41476126A00B5D49B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79AD31476126A00B5D49B /* QuartzCore.framework */; };
+		C4B79AF61476130800B5D49B /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79AF01476130800B5D49B /* libzbar.a */; };
+		C4B79AF71476130800B5D49B /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AF21476130800B5D49B /* zbar-back.png */; };
+		C4B79AF81476130800B5D49B /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AF31476130800B5D49B /* zbar-help.html */; };
+		C4B79AF91476130800B5D49B /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AF41476130800B5D49B /* zbar-helpicons.png */; };
+		C4B79AFA1476130800B5D49B /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AF51476130800B5D49B /* zbar-samples.png */; };
+		C4B79AFE1476135100B5D49B /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79AFD1476135100B5D49B /* libiconv.dylib */; };
+		C4B79B00147613D700B5D49B /* VKScanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B79AFF147613D700B5D49B /* VKScanView.xib */; };
+		C4B79B021476193000B5D49B /* VKWineInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B79B011476193000B5D49B /* VKWineInfoView.xib */; };
+		C4B79B0514761BC500B5D49B /* Viinikoodi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4B79B0314761BC500B5D49B /* Viinikoodi.xcdatamodeld */; };
+		C4B79B081476203500B5D49B /* Wine.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79B071476203500B5D49B /* Wine.m */; };
+		C4C648BB147F4DD300E932B5 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648A3147F4DD300E932B5 /* NSObject+SBJson.m */; };
+		C4C648BC147F4DD300E932B5 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648A6147F4DD300E932B5 /* SBJsonParser.m */; };
+		C4C648BD147F4DD300E932B5 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648A8147F4DD300E932B5 /* SBJsonStreamParser.m */; };
+		C4C648BE147F4DD300E932B5 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648AA147F4DD300E932B5 /* SBJsonStreamParserAccumulator.m */; };
+		C4C648BF147F4DD300E932B5 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648AC147F4DD300E932B5 /* SBJsonStreamParserAdapter.m */; };
+		C4C648C0147F4DD300E932B5 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648AE147F4DD300E932B5 /* SBJsonStreamParserState.m */; };
+		C4C648C1147F4DD300E932B5 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648B0147F4DD300E932B5 /* SBJsonStreamWriter.m */; };
+		C4C648C2147F4DD300E932B5 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648B2147F4DD300E932B5 /* SBJsonStreamWriterAccumulator.m */; };
+		C4C648C3147F4DD300E932B5 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648B4147F4DD300E932B5 /* SBJsonStreamWriterState.m */; };
+		C4C648C4147F4DD300E932B5 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648B6147F4DD300E932B5 /* SBJsonTokeniser.m */; };
+		C4C648C5147F4DD300E932B5 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648B8147F4DD300E932B5 /* SBJsonUTF8Stream.m */; };
+		C4C648C6147F4DD300E932B5 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648BA147F4DD300E932B5 /* SBJsonWriter.m */; };
+		C4C648C814809E0600E932B5 /* VKWineStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648C714809E0600E932B5 /* VKWineStore.m */; };
+		C4C648D41480A7BF00E932B5 /* FileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648D31480A7BF00E932B5 /* FileHelpers.m */; };
+		C4C648D51480BAFC00E932B5 /* VKInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B79AC1147611C400B5D49B /* VKInfoViewController.m */; };
+		C4C648D81480C94900E932B5 /* VKWineTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648D71480C94900E932B5 /* VKWineTableController.m */; };
+		C4C648DB1480CA8C00E932B5 /* VKWineTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648DA1480CA8B00E932B5 /* VKWineTableCell.m */; };
+		C4C648DD1480CC3800E932B5 /* VKWineTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C648DC1480CC3800E932B5 /* VKWineTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +60,94 @@
 		C4B79A5514760A9600B5D49B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4B79A5714760A9600B5D49B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4B79A5914760A9600B5D49B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C4B79A5D14760A9600B5D49B /* Viinikoodi-Info.plist */ = {isa = PBXFileReference; path = "Viinikoodi-Info.plist"; sourceTree = "<group>"; };
-		C4B79A5F14760A9600B5D49B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C4B79A6114760A9600B5D49B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4B79A6314760A9600B5D49B /* Viinikoodi-Prefix.pch */ = {isa = PBXFileReference; path = "Viinikoodi-Prefix.pch"; sourceTree = "<group>"; };
-		C4B79A6414760A9600B5D49B /* VKAppDelegate.h */ = {isa = PBXFileReference; path = VKAppDelegate.h; sourceTree = "<group>"; };
-		C4B79A6514760A9600B5D49B /* VKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKAppDelegate.m; sourceTree = "<group>"; };
-		C4B79A6714760A9600B5D49B /* VKFirstViewController.h */ = {isa = PBXFileReference; path = VKFirstViewController.h; sourceTree = "<group>"; };
-		C4B79A6814760A9600B5D49B /* VKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKFirstViewController.m; sourceTree = "<group>"; };
-		C4B79A6A14760A9700B5D49B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		C4B79A6C14760A9700B5D49B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		C4B79A6E14760A9700B5D49B /* VKSecondViewController.h */ = {isa = PBXFileReference; path = VKSecondViewController.h; sourceTree = "<group>"; };
-		C4B79A6F14760A9700B5D49B /* VKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKSecondViewController.m; sourceTree = "<group>"; };
-		C4B79A7114760A9700B5D49B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		C4B79A7314760A9700B5D49B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		C4B79A7614760A9700B5D49B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKFirstViewController.xib; sourceTree = "<group>"; };
-		C4B79A7914760A9700B5D49B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKSecondViewController.xib; sourceTree = "<group>"; };
+		C4B79A8D14760C8800B5D49B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4B79A9214760C8800B5D49B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4B79A9514760C8800B5D49B /* Viinikoodi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Viinikoodi-Info.plist"; sourceTree = "<group>"; };
+		C4B79A9614760C8800B5D49B /* Viinikoodi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Viinikoodi-Prefix.pch"; sourceTree = "<group>"; };
+		C4B79A9714760C8800B5D49B /* VKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAppDelegate.h; sourceTree = "<group>"; };
+		C4B79A9814760C8800B5D49B /* VKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAppDelegate.m; sourceTree = "<group>"; };
+		C4B79AAB1476113C00B5D49B /* 142-wine-bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "142-wine-bottle.png"; sourceTree = "<group>"; };
+		C4B79AAC1476113C00B5D49B /* 195-barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "195-barcode.png"; sourceTree = "<group>"; };
+		C4B79AAD1476113C00B5D49B /* 64-zap-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "64-zap-white.png"; sourceTree = "<group>"; };
+		C4B79AAE1476113C00B5D49B /* 64-zap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "64-zap.png"; sourceTree = "<group>"; };
+		C4B79AAF1476113C00B5D49B /* barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode.png; sourceTree = "<group>"; };
+		C4B79AC0147611C400B5D49B /* VKInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKInfoViewController.h; sourceTree = "<group>"; };
+		C4B79AC1147611C400B5D49B /* VKInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKInfoViewController.m; sourceTree = "<group>"; };
+		C4B79AC2147611C400B5D49B /* VKScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKScanViewController.h; sourceTree = "<group>"; };
+		C4B79AC3147611C400B5D49B /* VKScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKScanViewController.m; sourceTree = "<group>"; };
+		C4B79AC4147611C400B5D49B /* VKWineListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKWineListController.h; sourceTree = "<group>"; };
+		C4B79AC5147611C400B5D49B /* VKWineListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKWineListController.m; sourceTree = "<group>"; };
+		C4B79ACB1476122B00B5D49B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C4B79ACD1476124300B5D49B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C4B79ACF1476125000B5D49B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C4B79AD11476125F00B5D49B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C4B79AD31476126A00B5D49B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C4B79ADC1476130800B5D49B /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		C4B79ADD1476130800B5D49B /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		C4B79ADE1476130800B5D49B /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		C4B79ADF1476130800B5D49B /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		C4B79AE01476130800B5D49B /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		C4B79AE11476130800B5D49B /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		C4B79AE21476130800B5D49B /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		C4B79AE31476130800B5D49B /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		C4B79AE41476130800B5D49B /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		C4B79AE51476130800B5D49B /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		C4B79AE61476130800B5D49B /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		C4B79AE71476130800B5D49B /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		C4B79AE81476130800B5D49B /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		C4B79AE91476130800B5D49B /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		C4B79AEA1476130800B5D49B /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		C4B79AEB1476130800B5D49B /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		C4B79AEC1476130800B5D49B /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		C4B79AED1476130800B5D49B /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		C4B79AEE1476130800B5D49B /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		C4B79AEF1476130800B5D49B /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		C4B79AF01476130800B5D49B /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		C4B79AF21476130800B5D49B /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		C4B79AF31476130800B5D49B /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		C4B79AF41476130800B5D49B /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		C4B79AF51476130800B5D49B /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		C4B79AFD1476135100B5D49B /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		C4B79AFF147613D700B5D49B /* VKScanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKScanView.xib; sourceTree = "<group>"; };
+		C4B79B011476193000B5D49B /* VKWineInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKWineInfoView.xib; sourceTree = "<group>"; };
+		C4B79B0414761BC500B5D49B /* Viinikoodi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Viinikoodi.xcdatamodel; sourceTree = "<group>"; };
+		C4B79B061476203500B5D49B /* Wine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wine.h; sourceTree = "<group>"; };
+		C4B79B071476203500B5D49B /* Wine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wine.m; sourceTree = "<group>"; };
+		C4C648A1147F4DD300E932B5 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C4C648A2147F4DD300E932B5 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		C4C648A3147F4DD300E932B5 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		C4C648A4147F4DD300E932B5 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		C4C648A5147F4DD300E932B5 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C4C648A6147F4DD300E932B5 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C4C648A7147F4DD300E932B5 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		C4C648A8147F4DD300E932B5 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		C4C648A9147F4DD300E932B5 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		C4C648AA147F4DD300E932B5 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		C4C648AB147F4DD300E932B5 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		C4C648AC147F4DD300E932B5 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		C4C648AD147F4DD300E932B5 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		C4C648AE147F4DD300E932B5 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		C4C648AF147F4DD300E932B5 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		C4C648B0147F4DD300E932B5 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		C4C648B1147F4DD300E932B5 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		C4C648B2147F4DD300E932B5 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		C4C648B3147F4DD300E932B5 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		C4C648B4147F4DD300E932B5 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		C4C648B5147F4DD300E932B5 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		C4C648B6147F4DD300E932B5 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		C4C648B7147F4DD300E932B5 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		C4C648B8147F4DD300E932B5 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		C4C648B9147F4DD300E932B5 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C4C648BA147F4DD300E932B5 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C4C648C714809E0600E932B5 /* VKWineStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKWineStore.m; sourceTree = "<group>"; };
+		C4C648C914809E1100E932B5 /* VKWineStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKWineStore.h; sourceTree = "<group>"; };
+		C4C648D21480A7BF00E932B5 /* FileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelpers.h; sourceTree = "<group>"; };
+		C4C648D31480A7BF00E932B5 /* FileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelpers.m; sourceTree = "<group>"; };
+		C4C648D61480C94900E932B5 /* VKWineTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKWineTableController.h; sourceTree = "<group>"; };
+		C4C648D71480C94900E932B5 /* VKWineTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKWineTableController.m; sourceTree = "<group>"; };
+		C4C648D91480CA8B00E932B5 /* VKWineTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKWineTableCell.h; sourceTree = "<group>"; };
+		C4C648DA1480CA8B00E932B5 /* VKWineTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKWineTableCell.m; sourceTree = "<group>"; };
+		C4C648DC1480CC3800E932B5 /* VKWineTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKWineTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +155,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B79A5614760A9600B5D49B /* UIKit.framework in Frameworks */,
+				C4B79ACC1476122B00B5D49B /* CoreData.framework in Frameworks */,
 				C4B79A5814760A9600B5D49B /* Foundation.framework in Frameworks */,
 				C4B79A5A14760A9600B5D49B /* CoreGraphics.framework in Frameworks */,
+				C4B79A5614760A9600B5D49B /* UIKit.framework in Frameworks */,
+				C4B79ACE1476124300B5D49B /* AVFoundation.framework in Frameworks */,
+				C4B79AD01476125000B5D49B /* CoreMedia.framework in Frameworks */,
+				C4B79AD21476125F00B5D49B /* CoreVideo.framework in Frameworks */,
+				C4B79AD41476126A00B5D49B /* QuartzCore.framework in Frameworks */,
+				C4B79AFE1476135100B5D49B /* libiconv.dylib in Frameworks */,
+				C4B79AF61476130800B5D49B /* libzbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +174,15 @@
 		C4B79A4614760A9600B5D49B = {
 			isa = PBXGroup;
 			children = (
-				C4B79A5B14760A9600B5D49B /* Viinikoodi */,
-				C4B79A5414760A9600B5D49B /* Frameworks */,
+				C4B79A8014760C8800B5D49B /* Viinikoodi */,
 				C4B79A5214760A9600B5D49B /* Products */,
+				C4B79A5414760A9600B5D49B /* Frameworks */,
+				C4B79AD7147612E100B5D49B /* Libraries */,
+				C4B79AD31476126A00B5D49B /* QuartzCore.framework */,
+				C4B79AD11476125F00B5D49B /* CoreVideo.framework */,
+				C4B79ACF1476125000B5D49B /* CoreMedia.framework */,
+				C4B79ACD1476124300B5D49B /* AVFoundation.framework */,
+				C4B79ACB1476122B00B5D49B /* CoreData.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,35 +204,189 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4B79A5B14760A9600B5D49B /* Viinikoodi */ = {
+		C4B79A8014760C8800B5D49B /* Viinikoodi */ = {
 			isa = PBXGroup;
 			children = (
-				C4B79A6414760A9600B5D49B /* VKAppDelegate.h */,
-				C4B79A6514760A9600B5D49B /* VKAppDelegate.m */,
-				C4B79A6714760A9600B5D49B /* VKFirstViewController.h */,
-				C4B79A6814760A9600B5D49B /* VKFirstViewController.m */,
-				C4B79A6A14760A9700B5D49B /* first.png */,
-				C4B79A6C14760A9700B5D49B /* first@2x.png */,
-				C4B79A6E14760A9700B5D49B /* VKSecondViewController.h */,
-				C4B79A6F14760A9700B5D49B /* VKSecondViewController.m */,
-				C4B79A7114760A9700B5D49B /* second.png */,
-				C4B79A7314760A9700B5D49B /* second@2x.png */,
-				C4B79A7514760A9700B5D49B /* VKFirstViewController.xib */,
-				C4B79A7814760A9700B5D49B /* VKSecondViewController.xib */,
-				C4B79A5C14760A9600B5D49B /* Supporting Files */,
+				C4B79ACA147611DA00B5D49B /* Models */,
+				C4B79AC9147611D200B5D49B /* Views */,
+				C4B79ABF147611C400B5D49B /* Controllers */,
+				C4B79AA91476113C00B5D49B /* Assets */,
+				C4B79A8C14760C8800B5D49B /* InfoPlist.strings */,
+				C4B79A9214760C8800B5D49B /* main.m */,
+				C4B79A9514760C8800B5D49B /* Viinikoodi-Info.plist */,
+				C4B79A9614760C8800B5D49B /* Viinikoodi-Prefix.pch */,
+				C4B79A9714760C8800B5D49B /* VKAppDelegate.h */,
+				C4B79A9814760C8800B5D49B /* VKAppDelegate.m */,
+				C4C648C714809E0600E932B5 /* VKWineStore.m */,
+				C4C648C914809E1100E932B5 /* VKWineStore.h */,
+				C4C648D31480A7BF00E932B5 /* FileHelpers.m */,
+				C4C648D21480A7BF00E932B5 /* FileHelpers.h */,
+				C4C648DA1480CA8B00E932B5 /* VKWineTableCell.m */,
+				C4C648D91480CA8B00E932B5 /* VKWineTableCell.h */,
+				C4B79B0314761BC500B5D49B /* Viinikoodi.xcdatamodeld */,
 			);
 			path = Viinikoodi;
 			sourceTree = "<group>";
 		};
-		C4B79A5C14760A9600B5D49B /* Supporting Files */ = {
+		C4B79AA91476113C00B5D49B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C4B79A5D14760A9600B5D49B /* Viinikoodi-Info.plist */,
-				C4B79A5E14760A9600B5D49B /* InfoPlist.strings */,
-				C4B79A6114760A9600B5D49B /* main.m */,
-				C4B79A6314760A9600B5D49B /* Viinikoodi-Prefix.pch */,
+				C4B79AAA1476113C00B5D49B /* Images */,
 			);
-			name = "Supporting Files";
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C4B79AAA1476113C00B5D49B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79AAB1476113C00B5D49B /* 142-wine-bottle.png */,
+				C4B79AAC1476113C00B5D49B /* 195-barcode.png */,
+				C4B79AAD1476113C00B5D49B /* 64-zap-white.png */,
+				C4B79AAE1476113C00B5D49B /* 64-zap.png */,
+				C4B79AAF1476113C00B5D49B /* barcode.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C4B79ABF147611C400B5D49B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4C648D61480C94900E932B5 /* VKWineTableController.h */,
+				C4C648D71480C94900E932B5 /* VKWineTableController.m */,
+				C4B79AC0147611C400B5D49B /* VKInfoViewController.h */,
+				C4B79AC1147611C400B5D49B /* VKInfoViewController.m */,
+				C4B79AC2147611C400B5D49B /* VKScanViewController.h */,
+				C4B79AC3147611C400B5D49B /* VKScanViewController.m */,
+				C4B79AC4147611C400B5D49B /* VKWineListController.h */,
+				C4B79AC5147611C400B5D49B /* VKWineListController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C4B79AC9147611D200B5D49B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4C648DC1480CC3800E932B5 /* VKWineTableCell.xib */,
+				C4B79AFF147613D700B5D49B /* VKScanView.xib */,
+				C4B79B011476193000B5D49B /* VKWineInfoView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4B79ACA147611DA00B5D49B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79B061476203500B5D49B /* Wine.h */,
+				C4B79B071476203500B5D49B /* Wine.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4B79AD7147612E100B5D49B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C4C6489F147F4D9200E932B5 /* SBJson */,
+				C4B79AFD1476135100B5D49B /* libiconv.dylib */,
+				C4B79AD81476130800B5D49B /* ZBarSDK */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		C4B79AD81476130800B5D49B /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79AD91476130800B5D49B /* Headers */,
+				C4B79AF01476130800B5D49B /* libzbar.a */,
+				C4B79AF11476130800B5D49B /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		C4B79AD91476130800B5D49B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79ADA1476130800B5D49B /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C4B79ADA1476130800B5D49B /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79ADB1476130800B5D49B /* zbar */,
+				C4B79AE51476130800B5D49B /* zbar.h */,
+				C4B79AE61476130800B5D49B /* ZBarCameraSimulator.h */,
+				C4B79AE71476130800B5D49B /* ZBarCaptureReader.h */,
+				C4B79AE81476130800B5D49B /* ZBarHelpController.h */,
+				C4B79AE91476130800B5D49B /* ZBarImage.h */,
+				C4B79AEA1476130800B5D49B /* ZBarImageScanner.h */,
+				C4B79AEB1476130800B5D49B /* ZBarReaderController.h */,
+				C4B79AEC1476130800B5D49B /* ZBarReaderView.h */,
+				C4B79AED1476130800B5D49B /* ZBarReaderViewController.h */,
+				C4B79AEE1476130800B5D49B /* ZBarSDK.h */,
+				C4B79AEF1476130800B5D49B /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		C4B79ADB1476130800B5D49B /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79ADC1476130800B5D49B /* Decoder.h */,
+				C4B79ADD1476130800B5D49B /* Exception.h */,
+				C4B79ADE1476130800B5D49B /* Image.h */,
+				C4B79ADF1476130800B5D49B /* ImageScanner.h */,
+				C4B79AE01476130800B5D49B /* Processor.h */,
+				C4B79AE11476130800B5D49B /* Scanner.h */,
+				C4B79AE21476130800B5D49B /* Symbol.h */,
+				C4B79AE31476130800B5D49B /* Video.h */,
+				C4B79AE41476130800B5D49B /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		C4B79AF11476130800B5D49B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4B79AF21476130800B5D49B /* zbar-back.png */,
+				C4B79AF31476130800B5D49B /* zbar-help.html */,
+				C4B79AF41476130800B5D49B /* zbar-helpicons.png */,
+				C4B79AF51476130800B5D49B /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C4C6489F147F4D9200E932B5 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				C4C648A1147F4DD300E932B5 /* JSON.h */,
+				C4C648A2147F4DD300E932B5 /* NSObject+SBJson.h */,
+				C4C648A3147F4DD300E932B5 /* NSObject+SBJson.m */,
+				C4C648A4147F4DD300E932B5 /* SBJson.h */,
+				C4C648A5147F4DD300E932B5 /* SBJsonParser.h */,
+				C4C648A6147F4DD300E932B5 /* SBJsonParser.m */,
+				C4C648A7147F4DD300E932B5 /* SBJsonStreamParser.h */,
+				C4C648A8147F4DD300E932B5 /* SBJsonStreamParser.m */,
+				C4C648A9147F4DD300E932B5 /* SBJsonStreamParserAccumulator.h */,
+				C4C648AA147F4DD300E932B5 /* SBJsonStreamParserAccumulator.m */,
+				C4C648AB147F4DD300E932B5 /* SBJsonStreamParserAdapter.h */,
+				C4C648AC147F4DD300E932B5 /* SBJsonStreamParserAdapter.m */,
+				C4C648AD147F4DD300E932B5 /* SBJsonStreamParserState.h */,
+				C4C648AE147F4DD300E932B5 /* SBJsonStreamParserState.m */,
+				C4C648AF147F4DD300E932B5 /* SBJsonStreamWriter.h */,
+				C4C648B0147F4DD300E932B5 /* SBJsonStreamWriter.m */,
+				C4C648B1147F4DD300E932B5 /* SBJsonStreamWriterAccumulator.h */,
+				C4C648B2147F4DD300E932B5 /* SBJsonStreamWriterAccumulator.m */,
+				C4C648B3147F4DD300E932B5 /* SBJsonStreamWriterState.h */,
+				C4C648B4147F4DD300E932B5 /* SBJsonStreamWriterState.m */,
+				C4C648B5147F4DD300E932B5 /* SBJsonTokeniser.h */,
+				C4C648B6147F4DD300E932B5 /* SBJsonTokeniser.m */,
+				C4C648B7147F4DD300E932B5 /* SBJsonUTF8Stream.h */,
+				C4C648B8147F4DD300E932B5 /* SBJsonUTF8Stream.m */,
+				C4C648B9147F4DD300E932B5 /* SBJsonWriter.h */,
+				C4C648BA147F4DD300E932B5 /* SBJsonWriter.m */,
+			);
+			name = SBJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,13 +439,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B79A6014760A9600B5D49B /* InfoPlist.strings in Resources */,
-				C4B79A6B14760A9700B5D49B /* first.png in Resources */,
-				C4B79A6D14760A9700B5D49B /* first@2x.png in Resources */,
-				C4B79A7214760A9700B5D49B /* second.png in Resources */,
-				C4B79A7414760A9700B5D49B /* second@2x.png in Resources */,
-				C4B79A7714760A9700B5D49B /* VKFirstViewController.xib in Resources */,
-				C4B79A7A14760A9700B5D49B /* VKSecondViewController.xib in Resources */,
+				C4B79A9F14760C8900B5D49B /* InfoPlist.strings in Resources */,
+				C4B79AA314760C8900B5D49B /* Viinikoodi-Info.plist in Resources */,
+				C4B79AB41476113C00B5D49B /* 142-wine-bottle.png in Resources */,
+				C4B79AB51476113C00B5D49B /* 195-barcode.png in Resources */,
+				C4B79AB61476113C00B5D49B /* 64-zap-white.png in Resources */,
+				C4B79AB71476113C00B5D49B /* 64-zap.png in Resources */,
+				C4B79AB81476113C00B5D49B /* barcode.png in Resources */,
+				C4B79AF71476130800B5D49B /* zbar-back.png in Resources */,
+				C4B79AF81476130800B5D49B /* zbar-help.html in Resources */,
+				C4B79AF91476130800B5D49B /* zbar-helpicons.png in Resources */,
+				C4B79AFA1476130800B5D49B /* zbar-samples.png in Resources */,
+				C4B79B00147613D700B5D49B /* VKScanView.xib in Resources */,
+				C4B79B021476193000B5D49B /* VKWineInfoView.xib in Resources */,
+				C4C648DD1480CC3800E932B5 /* VKWineTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,38 +463,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B79A6214760A9600B5D49B /* main.m in Sources */,
-				C4B79A6614760A9600B5D49B /* VKAppDelegate.m in Sources */,
-				C4B79A6914760A9600B5D49B /* VKFirstViewController.m in Sources */,
-				C4B79A7014760A9700B5D49B /* VKSecondViewController.m in Sources */,
+				C4C648D51480BAFC00E932B5 /* VKInfoViewController.m in Sources */,
+				C4B79AA214760C8900B5D49B /* main.m in Sources */,
+				C4B79AA414760C8900B5D49B /* VKAppDelegate.m in Sources */,
+				C4B79AC7147611C500B5D49B /* VKScanViewController.m in Sources */,
+				C4B79B0514761BC500B5D49B /* Viinikoodi.xcdatamodeld in Sources */,
+				C4B79B081476203500B5D49B /* Wine.m in Sources */,
+				C4C648BB147F4DD300E932B5 /* NSObject+SBJson.m in Sources */,
+				C4C648BC147F4DD300E932B5 /* SBJsonParser.m in Sources */,
+				C4C648BD147F4DD300E932B5 /* SBJsonStreamParser.m in Sources */,
+				C4C648BE147F4DD300E932B5 /* SBJsonStreamParserAccumulator.m in Sources */,
+				C4C648BF147F4DD300E932B5 /* SBJsonStreamParserAdapter.m in Sources */,
+				C4C648C0147F4DD300E932B5 /* SBJsonStreamParserState.m in Sources */,
+				C4C648C1147F4DD300E932B5 /* SBJsonStreamWriter.m in Sources */,
+				C4C648C2147F4DD300E932B5 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				C4C648C3147F4DD300E932B5 /* SBJsonStreamWriterState.m in Sources */,
+				C4C648C4147F4DD300E932B5 /* SBJsonTokeniser.m in Sources */,
+				C4C648C5147F4DD300E932B5 /* SBJsonUTF8Stream.m in Sources */,
+				C4C648C6147F4DD300E932B5 /* SBJsonWriter.m in Sources */,
+				C4C648C814809E0600E932B5 /* VKWineStore.m in Sources */,
+				C4C648D41480A7BF00E932B5 /* FileHelpers.m in Sources */,
+				C4C648D81480C94900E932B5 /* VKWineTableController.m in Sources */,
+				C4C648DB1480CA8C00E932B5 /* VKWineTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C4B79A5E14760A9600B5D49B /* InfoPlist.strings */ = {
+		C4B79A8C14760C8800B5D49B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C4B79A5F14760A9600B5D49B /* en */,
+				C4B79A8D14760C8800B5D49B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C4B79A7514760A9700B5D49B /* VKFirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4B79A7614760A9700B5D49B /* en */,
-			);
-			name = VKFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		C4B79A7814760A9700B5D49B /* VKSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4B79A7914760A9700B5D49B /* en */,
-			);
-			name = VKSecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,6 +551,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Viinikoodi/Viinikoodi-Prefix.pch";
 				INFOPLIST_FILE = "Viinikoodi/Viinikoodi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -282,6 +566,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Viinikoodi/Viinikoodi-Prefix.pch";
 				INFOPLIST_FILE = "Viinikoodi/Viinikoodi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -306,8 +594,22 @@
 				C4B79A7F14760A9700B5D49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4B79B0314761BC500B5D49B /* Viinikoodi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4B79B0414761BC500B5D49B /* Viinikoodi.xcdatamodel */,
+			);
+			currentVersion = C4B79B0414761BC500B5D49B /* Viinikoodi.xcdatamodel */;
+			path = Viinikoodi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C4B79A4814760A9600B5D49B /* Project object */;
 }
