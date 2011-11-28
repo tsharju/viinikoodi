@@ -53,6 +53,8 @@
 		C4C648D81480C94900E932B5 /* VKWineTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648D71480C94900E932B5 /* VKWineTableController.m */; };
 		C4C648DB1480CA8C00E932B5 /* VKWineTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648DA1480CA8B00E932B5 /* VKWineTableCell.m */; };
 		C4C648DD1480CC3800E932B5 /* VKWineTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C648DC1480CC3800E932B5 /* VKWineTableCell.xib */; };
+		C4C648DF1482A3D200E932B5 /* VKInputProductCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C648DE1482A3D200E932B5 /* VKInputProductCodeView.xib */; };
+		C4C648E21482A69100E932B5 /* VKInputProductCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C648E11482A69000E932B5 /* VKInputProductCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +150,9 @@
 		C4C648D91480CA8B00E932B5 /* VKWineTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKWineTableCell.h; sourceTree = "<group>"; };
 		C4C648DA1480CA8B00E932B5 /* VKWineTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKWineTableCell.m; sourceTree = "<group>"; };
 		C4C648DC1480CC3800E932B5 /* VKWineTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKWineTableCell.xib; sourceTree = "<group>"; };
+		C4C648DE1482A3D200E932B5 /* VKInputProductCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKInputProductCodeView.xib; sourceTree = "<group>"; };
+		C4C648E01482A69000E932B5 /* VKInputProductCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKInputProductCodeViewController.h; sourceTree = "<group>"; };
+		C4C648E11482A69000E932B5 /* VKInputProductCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKInputProductCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +264,8 @@
 				C4B79AC3147611C400B5D49B /* VKScanViewController.m */,
 				C4B79AC4147611C400B5D49B /* VKWineListController.h */,
 				C4B79AC5147611C400B5D49B /* VKWineListController.m */,
+				C4C648E01482A69000E932B5 /* VKInputProductCodeViewController.h */,
+				C4C648E11482A69000E932B5 /* VKInputProductCodeViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -269,6 +276,7 @@
 				C4C648DC1480CC3800E932B5 /* VKWineTableCell.xib */,
 				C4B79AFF147613D700B5D49B /* VKScanView.xib */,
 				C4B79B011476193000B5D49B /* VKWineInfoView.xib */,
+				C4C648DE1482A3D200E932B5 /* VKInputProductCodeView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -453,6 +461,7 @@
 				C4B79B00147613D700B5D49B /* VKScanView.xib in Resources */,
 				C4B79B021476193000B5D49B /* VKWineInfoView.xib in Resources */,
 				C4C648DD1480CC3800E932B5 /* VKWineTableCell.xib in Resources */,
+				C4C648DF1482A3D200E932B5 /* VKInputProductCodeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +494,7 @@
 				C4C648D41480A7BF00E932B5 /* FileHelpers.m in Sources */,
 				C4C648D81480C94900E932B5 /* VKWineTableController.m in Sources */,
 				C4C648DB1480CA8C00E932B5 /* VKWineTableCell.m in Sources */,
+				C4C648E21482A69100E932B5 /* VKInputProductCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 
 #import "VKScanViewController.h"
 #import "VKInfoViewController.h"
+#import "VKInputProductCodeViewController.h"
 #import "VKWineStore.h"
 
 #import "Wine.h"
@@ -111,32 +112,45 @@
     NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
     NSString *jsonString = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
     NSMutableDictionary *wineInfo = [parser objectWithString:jsonString error:nil];
-        
-    // load image data for the wine
-    NSURL *imageURL = [NSURL URLWithString:[wineInfo valueForKey:@"image_url"]];
-    NSData *data = [NSData dataWithContentsOfURL:imageURL];
     
-    [wineInfo setValue:data forKey:@"image_data"];
-    
-    // get or create the wine object
+    // check if wine was found
     int alkoID = [[wineInfo valueForKey:@"alko_id"] intValue];
-    Wine *wine = nil;
-    if (!(wine = [[VKWineStore defaultStore] fetchWineWithAlkoID:alkoID])) {
-        wine = [[VKWineStore defaultStore] createWineFromDict:wineInfo];
+    if (alkoID) {
+        // get or create the wine object
+        Wine *wine = nil;
+        if (!(wine = [[VKWineStore defaultStore] fetchWineWithAlkoID:alkoID])) {
+            // load image data for the wine
+            NSURL *imageURL = [NSURL URLWithString:[wineInfo valueForKey:@"image_url"]];
+            NSData *data = [NSData dataWithContentsOfURL:imageURL];
+            
+            [wineInfo setValue:data forKey:@"image_data"];
+            
+            // create and store new wine
+            wine = [[VKWineStore defaultStore] createWineFromDict:wineInfo];
+            
+        }
+        
+        [parser release];
+        
+        UIImage *image = [UIImage imageWithData:wine.bottleImageData];
+        wine.bottleImage = image;
+        
+        [activityIndicator stopAnimating];
+        
+        VKInfoViewController *infoController = [[VKInfoViewController alloc] initWithWine:wine];
+        infoController.navigationItem.title = @"Viinin tiedot";
+        
+        [self.navigationController pushViewController:infoController animated:YES];
+        [infoController release];
+    } else {
+        self.resultCodeLabel.text = @"";
+        [activityIndicator stopAnimating];
+        
+        // ask user to input the wine product code
+        VKInputProductCodeViewController *inputCodeView = [[VKInputProductCodeViewController alloc] initWithBarcode:self.resultCode];
+        [self presentModalViewController:inputCodeView animated:YES];
+        [inputCodeView release];
     }
-    
-    [parser release];
-    
-    UIImage *image = [UIImage imageWithData:data];
-    wine.bottleImage = image;
-    
-    [activityIndicator stopAnimating];
-    
-    VKInfoViewController *infoController = [[VKInfoViewController alloc] initWithWine:wine];
-    infoController.navigationItem.title = @"Viinin tiedot";
-    
-    [self.navigationController pushViewController:infoController animated:YES];
-    [infoController release];
 }
 
 - (IBAction)flashButtonTapped:(id)sender

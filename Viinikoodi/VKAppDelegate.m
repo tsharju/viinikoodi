@@ -49,7 +49,7 @@
     [ZBarReaderView class];
     
     [scanViewController release];
-    //[wineListController release];
+    [wineListController release];
     
     return YES;
 }
