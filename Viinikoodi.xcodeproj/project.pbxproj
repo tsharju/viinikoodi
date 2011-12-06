@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4554B37148DE7F000EC1B9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4554B34148DE7F000EC1B9E /* Default.png */; };
+		C4554B38148DE7F000EC1B9E /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4554B35148DE7F000EC1B9E /* icon2.png */; };
+		C4554B39148DE7F000EC1B9E /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4554B36148DE7F000EC1B9E /* icon1.png */; };
+		C4554B3B148DE7FA00EC1B9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4554B3A148DE7FA00EC1B9E /* Default@2x.png */; };
 		C4B79A5614760A9600B5D49B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5514760A9600B5D49B /* UIKit.framework */; };
 		C4B79A5814760A9600B5D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5714760A9600B5D49B /* Foundation.framework */; };
 		C4B79A5A14760A9600B5D49B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B79A5914760A9600B5D49B /* CoreGraphics.framework */; };
@@ -58,6 +62,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4554B34148DE7F000EC1B9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4554B35148DE7F000EC1B9E /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		C4554B36148DE7F000EC1B9E /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		C4554B3A148DE7FA00EC1B9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C4B79A5114760A9600B5D49B /* Viinikoodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viinikoodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B79A5514760A9600B5D49B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4B79A5714760A9600B5D49B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -244,6 +252,10 @@
 		C4B79AAA1476113C00B5D49B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C4554B3A148DE7FA00EC1B9E /* Default@2x.png */,
+				C4554B34148DE7F000EC1B9E /* Default.png */,
+				C4554B35148DE7F000EC1B9E /* icon2.png */,
+				C4554B36148DE7F000EC1B9E /* icon1.png */,
 				C4B79AAB1476113C00B5D49B /* 142-wine-bottle.png */,
 				C4B79AAC1476113C00B5D49B /* 195-barcode.png */,
 				C4B79AAD1476113C00B5D49B /* 64-zap-white.png */,
@@ -462,6 +474,10 @@
 				C4B79B021476193000B5D49B /* VKWineInfoView.xib in Resources */,
 				C4C648DD1480CC3800E932B5 /* VKWineTableCell.xib in Resources */,
 				C4C648DF1482A3D200E932B5 /* VKInputProductCodeView.xib in Resources */,
+				C4554B37148DE7F000EC1B9E /* Default.png in Resources */,
+				C4554B38148DE7F000EC1B9E /* icon2.png in Resources */,
+				C4554B39148DE7F000EC1B9E /* icon1.png in Resources */,
+				C4554B3B148DE7FA00EC1B9E /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
